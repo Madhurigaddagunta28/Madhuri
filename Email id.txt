@@ -1,0 +1,21 @@
+import java.util.*; 
+class Bike { 
+    public static void main(String[] args) 
+    { 
+      String[] strArray = { "abc.sl@gmail.com", "mad.sl@gmail.com", "xyz.sl@gmail.com", "lmn.sl@gmail.com", "array.sl@gmail.com" };
+        boolean found = false;
+        
+        String searchStr = "xyz.sl@gmail.com";
+       for (int i = 0; i <strArray.length; i++) {
+       if(searchStr.equals(strArray[i])) {
+           found = true; 
+            break;
+            }
+        }
+       if(found)
+          System.out.println(searchStr + "\n"+ "found ");
+        else
+          System.out.println(searchStr +" not found in the array");
+ 
+    }
+}
