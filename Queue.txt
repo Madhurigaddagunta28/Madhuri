@@ -1,5 +1,5 @@
 write the program to insert and remove elements in a queue.
-
+package phase1;
 import java.util.*;
 
 public class QueueExample 

@@ -1,10 +1,9 @@
 Writing the program in Java  to insert a new element in a sorted circular linked list.
 
+package phase1;
 
-
-
-public class LinkedList 
-{ 
+public class Linkedlist {
+	
     	static class Node 
     	{ 
   		int data; 
@@ -16,7 +15,7 @@ public class LinkedList
         		} 
 }
 Node head; 
-LinkedList()   
+Linkedlist()   
 { 
 head = null; 
 } 
@@ -58,7 +57,7 @@ void printList()
     	}
 public static void main(String[] args) 
     	{ 
-        		LinkedList list = new LinkedList(); 
+        		Linkedlist list = new Linkedlist(); 
         		int arr[] = new int[] {12, 56, 2, 11, 1, 90}; 
         		Node temp = null; 
         		for (int i = 0; i < 6; i++) 

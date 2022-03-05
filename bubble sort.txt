@@ -1,6 +1,8 @@
 Writing a program in Java implementing the bubble sort algorithm 
 
-public class bubbleSort {
+package phase1;
+
+public class BubbleSort {
 
 
     public static void main(String[] args){

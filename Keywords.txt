@@ -1,5 +1,5 @@
 Writing a program in Java to demonstrate the throw keyword
-
+package phase1;
 public class ThrowDemo
     {
         public static void main(String[] args)
@@ -28,7 +28,7 @@ public class ThrowDemo
 
 
 
-
+package phase1;
 public class ThrowsDemo
     {
         void Division() throws ArithmeticException
@@ -55,7 +55,7 @@ ThrowsDemo T = new ThrowsDemo();
 
  Writing a program in Java to demonstrate the finally keyword
 
-
+package phase1;
 public class FinallyBlockDemo
     {
         public static void main(String[] args)
@@ -78,7 +78,7 @@ public class FinallyBlockDemo
 
 
 Writing a program in Java to demonstrate custom exceptions
-
+package phase1;
 class MyException extends Exception 
 { 
     public MyException(String s) 

@@ -1,5 +1,6 @@
 Writing a program in Java to demonstrate the uses of classes and objects
 
+package phase1;
 public class Dog 
 {  
     String name; 
@@ -47,7 +48,7 @@ public class Dog
 
 : Writing a program in Java to demonstrate the uses of polymorphism
 
- 
+package phase1;
 class Sum 
 {
     public int sum(int x, int y) 
@@ -75,10 +76,15 @@ class Sum
 
 
 Writing a program in Java to demonstrate the uses of inheritance
+package phase1;
 
-class Bicycle  
-{ 
-    public int gear; 
+public class Bicycle {
+	 public static void main(String args[])  
+	    { 
+	        MountainBike mb = new MountainBike(3, 100, 25); 
+	        System.out.println(mb.toString());
+	    } 
+	public int gear; 
     public int speed; 
     public Bicycle(int gear, int speed) 
     { 
@@ -98,6 +104,7 @@ class Bicycle
         return("No of gears are " + gear + "\n" + "speed of bicycle is " + speed); 
     }  
 } 
+
 class MountainBike extends Bicycle  
 { 
     public int seatHeight; 
@@ -116,67 +123,60 @@ class MountainBike extends Bicycle
         return (super.toString()+ 
                 "\nseat height is "+seatHeight); 
     } 
+   
 }
-public class Test  
-{ 
-    public static void main(String args[])  
-    { 
-        MountainBike mb = new MountainBike(3, 100, 25); 
-        System.out.println(mb.toString());
-    } 
-}
-
 
 
 : Writing a program in Java to demonstrate the uses of encapsulation
+package phase1;
 
-public class Encapsulate 
-{ 
-    private String Name; 
-    private int Roll; 
-    private int Age;
-    public int getAge()  
-    { 
-      return Age; 
-    } 
-    public String getName()  
-    { 
-      return Name; 
-    } 
-    public int getRoll()  
-    { 
-       return Roll; 
-    } 
-    public void setAge( int newAge) 
-    { 
-      Age = newAge; 
-    } 
-    public void setName(String newName) 
-    { 
-      Name = newName; 
-    } 
-    public void setRoll( int newRoll)  
-    { 
-      Roll = newRoll; 
-    } 
-}
-public class TestEncapsulation 
-{     
-    public static void main (String[] args)  
-    { 
-        Encapsulate obj = new Encapsulate(); 
-        obj.setName("Harsh"); 
-        obj.setAge(19); 
-        obj.setRoll(51); 
-        System.out.println("My name: " + obj.getName()); 
-        System.out.println("My age: " + obj.getAge()); 
-        System.out.println("My roll: " + obj.getRoll());      
-    } 
-}
+public class Encapsulate {
+	 public static void main (String[] args)  
+	    { 
+	        Encapsulate obj = new Encapsulate(); 
+	        obj.setName("shalini"); 
+	        obj.setAge(20); 
+	        obj.setRoll(32); 
+	        System.out.println("My name: " + obj.getName()); 
+	        System.out.println("My age: " + obj.getAge()); 
+	        System.out.println("My roll: " + obj.getRoll());      
+	    } 
+	   private String Name; 
+	    private int Roll; 
+	    private int Age;
+	    public int getAge()  
+	    { 
+	      return Age; 
+	    } 
+	    public String getName()  
+	    { 
+	      return Name; 
+	    } 
+	    public int getRoll()  
+	    { 
+	       return Roll; 
+	    } 
+	    public void setAge( int newAge) 
+	    { 
+	      Age = newAge; 
+	    } 
+	    public void setName(String newName) 
+	    { 
+	      Name = newName; 
+	    } 
+	    public void setRoll( int newRoll)  
+	    { 
+	      Roll = newRoll; 
+	    } 
+	}
+ 
+
 
 
 
 Writing a program in Java to demonstrate the uses of abstraction
+
+package phase1;
 
 abstract class Shape  
 { 
@@ -236,8 +236,8 @@ class Rectangle extends Shape
                            "and area is : " + area(); 
     } 
 } 
-public class Test  
-{ 
+public class Abstraction{
+
     public static void main(String[] args) 
     { 
         Shape s1 = new Circle("Red", 2.2); 
@@ -246,4 +246,3 @@ public class Test
         System.out.println(s2.toString()); 
     } 
 }
-

@@ -1,5 +1,5 @@
 Writing the program in Java to multiply two matrices
-
+package phase1;
 public class MultiplyMatrices 
 {
 public static void main(String[] args) 

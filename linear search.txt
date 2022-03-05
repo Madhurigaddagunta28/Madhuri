@@ -1,10 +1,11 @@
 Writing a program in Java implementing the linear search algorithm
 
 
+package phase1;
 
 import java.util.Scanner;
 
-public class linearSearch {
+public class LinearSearch {
 
     public static void main(String[] args){
 

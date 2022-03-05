@@ -1,4 +1,5 @@
  write the program to insert and remove elements in a stack.
+package phase1;
 
 public class Stack 
 { 

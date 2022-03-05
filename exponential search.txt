@@ -1,10 +1,10 @@
 Writing a program in Java implementing the exponential search algorithm 
 
-
+package phase1;
 
 import java.util.Arrays;
 
-public class expSearch {
+public class ExpSearch  {
 
 public static  void main(String[] args){
 
@@ -39,3 +39,4 @@ public static  void main(String[] args){
 
 
 }
+

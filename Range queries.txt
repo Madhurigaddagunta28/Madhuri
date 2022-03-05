@@ -1,5 +1,5 @@
 Writing the program in Java to understand range queries 
-
+package phase1;
 public class RangeQueries
 { 
     static int k = 16;

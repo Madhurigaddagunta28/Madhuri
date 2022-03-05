@@ -1,7 +1,8 @@
 Writing a program in Java implementing the quick sort algorithm 
 
 
-// Java program for implementation of QuickSort
+package phase1;
+/ /Java program for implementation of QuickSort
 class QuickSort
 {
    

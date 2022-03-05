@@ -1,5 +1,7 @@
+package phase1;
+
 //method demo
-public class methodExecution {
+public class MethodExecution {
 
 public int multipynumbers(int a,int b) {
 	int z=a*b;

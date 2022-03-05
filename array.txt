@@ -1,4 +1,6 @@
-public class arrayAssisted {
+package phase1;
+
+public class ArrayAssisted {
 
 public static void main(String[] args) {
 

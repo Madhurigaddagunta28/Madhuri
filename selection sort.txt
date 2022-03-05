@@ -1,7 +1,7 @@
 Writing a program in Java implementing the selection sort algorithm 
 
-
-public class selectionSort {
+package phase1;
+public class SelectionSort {
 
     public static void main(String[] args) {
 

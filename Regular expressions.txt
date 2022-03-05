@@ -1,6 +1,7 @@
+package phase1;
 import java.util.regex.*;
 
-public class regularExpnAssisted {
+public class RegularExpnAssisted {
 
 public static void main(String[] args) {
 

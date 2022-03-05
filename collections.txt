@@ -1,6 +1,6 @@
+package phase1;
 import java.util.*;
-
-public class collectionAssisted {
+public class CollectionAssisted {
 
 	public static void main(String[] args) {
 		//creating arraylist
@@ -50,7 +50,5 @@ public class collectionAssisted {
 	      	} 
 	      }  
 	}
-
-
 
 

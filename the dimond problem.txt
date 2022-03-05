@@ -1,5 +1,5 @@
 Writing a program in Java to resolve the diamond problem using OOPs’ concepts
-
+package phase1;
 interface First 
 {  
     default void show() 

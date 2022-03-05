@@ -1,3 +1,4 @@
+package phase1;
 //default constructor
 class EmpInfo{
 	int id;
@@ -8,7 +9,7 @@ void display() {
 	}
 }
 
-public class constructorDemo {
+public class ConstructorDemo {
 
 public static void main(String[] args) {
 
@@ -17,6 +18,12 @@ public static void main(String[] args) {
 
 	emp1.display();
 	emp2.display();
+	
+	Std std1=new Std(2,"Alex");
+	Std std2=new Std(10,"Annie");
+	
+	std1.display();
+	std2.display();
 	}
 }
 
@@ -34,15 +41,7 @@ class Std{
 	void display() {
 	System.out.println(id+" "+name);
 	}
-}
 
-public class paramConstrDemo {
-public static void main(String[] args) {
 
-	Std std1=new Std(2,"Alex");
-	Std std2=new Std(10,"Annie");
-	std1.display();
-	std2.display();
-		}
 }
 

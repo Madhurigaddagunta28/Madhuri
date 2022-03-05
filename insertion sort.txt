@@ -1,6 +1,7 @@
  Writing a program in Java implementing the insertion sort algorithm 
+package phase1;
 
-public class insertionSort {
+public class InsertionSort {
 
     public static  void main(String[] args){
 

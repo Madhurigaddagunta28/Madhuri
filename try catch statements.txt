@@ -1,6 +1,6 @@
 Writing a program in Java to demonstrate try and catch
-
-public class MyClass 
+package phase1;
+public class MyClass1 
 {
     public static void main(String args[]) 
     {

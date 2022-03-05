@@ -1,7 +1,8 @@
 Writing a program in Java implementing the binary search algorithm 
 
+package phase1;
 
-public class binarySearch {
+public class BinarySearch {
 
     public static  void main(String[] args){
 

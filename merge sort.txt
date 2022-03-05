@@ -1,5 +1,6 @@
 Write a program in Java implementing the merge sort algorithm 
 
+package phase1;
 
 /* Java program for Merge Sort */
 class MergeSort
